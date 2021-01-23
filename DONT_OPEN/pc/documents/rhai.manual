@@ -1,0 +1,54 @@
+RHAI PROGRAMMING LANGUAGE GUIDE
+
+A simple guide for the uninitiated, 
+on the new programming language 
+for the twentieth century.
+
+
+Part one: Variables
+
+Variables are a way of storing data.
+See part two. Before they can be used
+they must be initialized. Like so:
+
+let x = 2;
+
+The newly initialized variable can now
+be used for whatever purpose. 
+Eg. printing to the terminal: 
+
+print(x);
+
+
+
+
+Part two: Data
+
+There are many types of data in RHAI. 
+Here is a list of the basics:
+    - numbers eg. 3.14
+    - strings eg. "a string"
+    - booleans eg. true
+
+
+
+
+Part three: If
+
+The 'if' statement evaluates takes a piece
+of data. If that data evaluates to 'true'.
+The code in the proceeding block is run.
+If the data evaluates to 'false' the optional
+block proceeding the 'else' keyword.
+
+let a = 2;
+let b = 2;
+
+if a == b {
+    print("a is equal to b");
+} else {
+    print("a is not equal to b");
+}
+
+
+##############  REDACTED  ##############
